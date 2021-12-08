@@ -1,0 +1,167 @@
+/* Pedro */
+
+.topnav {
+    overflow: hidden;
+    background-color: #0b090a;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color:#0b090a;
+  }
+  
+  .topnav a.active {
+    background-color: #ba181b;
+    color: white;
+  }
+@import url("http://fonts.cdnfonts.com/css/gotham");
+
+.divabout {
+    background-color: #161a1d;
+    font-family:"Gotham", sans-serif ;
+}
+
+.footer {
+  background-color: #161a1d;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footer .bottom {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.font {
+  font-family:"Gotham", sans-serif ;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+  .parallaxhome {
+    /* The image used */
+    background-image: url("img/darkyuta.png");
+
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0px -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxabout {
+    /* The image used */
+    background-image: url("img/darkmat.png");
+
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxcontact {
+    /* The image used */
+    background-image: url("img/darkzoe.png");
+    
+
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0px -500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxcreation {
+    /* The image used */
+    background-image: url("img/darktsubasa.png");
+
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0px -500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.h1up {
+  font-size: 300%;
+  margin: 0 auto;
+}
+
+.sub {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.padparala {
+  padding:100px;
+  margin: 0 auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.columnx {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+.columny {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bu {
+  border: none; 
+  color: white; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+}
+
+.visit {background-color: #E5383B;}
+.visit:hover {background-color: #660708;}
+.visit a {
+  text-decoration: none;
+  color:white;
+}
